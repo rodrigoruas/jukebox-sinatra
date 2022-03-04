@@ -1,0 +1,9 @@
+<h2>Hello 808!!!</h2>
+
+<% @artists.each do |artist_array| %>
+  <li>
+    <a href="/artists/<%=artist_array[0]%>" ><%= artist_array[0] %> - <%= artist_array[1] %></a>
+  </li>
+<% end %>
+
+
